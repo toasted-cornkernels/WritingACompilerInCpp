@@ -22,6 +22,9 @@
           nativeBuildInputs = with pkgs; [
             cmake
             clang-tools # clangd, clang-format, etc.
+
+            coreutils-prefixed
+            delta
           ];
 
           buildInputs = with pkgs; [
